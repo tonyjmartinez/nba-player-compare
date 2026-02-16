@@ -1,0 +1,49 @@
+====================================
+COPY THIS PROMPT INTO CLAUDE OR CHATGPT
+====================================
+
+Compare Nikola Jokic and Joel Embiid for fantasy basketball.
+
+Please:
+1. Fetch their 2023-24 season stats from Basketball Reference or ESPN
+2. Get these stats: PPG, RPG, APG, SPG, BPG, FG%, FT%, 3PM, TOV, Games Played
+3. Create an interactive comparison dashboard using React and Recharts with:
+   - Player cards showing name, team, position, games played, and fantasy score
+   - Radar chart comparing PPG, RPG, APG, SPG, BPG, 3PM
+   - Bar chart for head-to-head stat comparison
+   - Detailed stat cards with winner highlighting for each category
+   - Fantasy score calculation: PPG×1 + RPG×1.2 + APG×1.5 + STL×3 + BLK×3 + 3PM×1 - TO×1
+   - Winner banner showing who has better overall fantasy value
+4. Use blue gradient colors (#3b82f6) for player 1, purple gradient (#9333ea) for player 2
+5. Make it responsive and professional-looking with Tailwind classes
+
+====================================
+CUSTOMIZE IT
+====================================
+
+Want to compare different players? Just change the names:
+- "Compare Luka Doncic and Shai Gilgeous-Alexander"
+- "Compare Stephen Curry and Damian Lillard"
+- "Compare Giannis Antetokounmpo and Kevin Durant"
+
+Want a different season?
+- "Compare 2015-16 Curry vs 2012-13 LeBron"
+- "Compare their 2022-23 playoff stats"
+
+Want different scoring?
+- Add: "Use points league scoring (PPG×1, REB×1, AST×1.5)"
+- Add: "Use 9-category scoring"
+- Add: "Show per-36-minute stats"
+
+====================================
+PRO TIPS
+====================================
+
+After the visualization appears:
+- "Now compare them to Anthony Davis"
+- "Show me just their efficiency stats (FG%, FT%, TS%)"
+- "Who's more consistent game-to-game?"
+- "Adjust the fantasy weights to value steals more"
+- "Export this as a shareable link"
+
+====================================
